@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Aditya's Portfolio </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-left">
+                <div class="one">Welcome to my world</div>
+                <div class="two">I am a <span class="typing"></span></div>
+                <div class="button-container">
+                    <a href="#contact"><button class="btn">Contact me</button></a>
+                    <a href="#services"><button class="btn">Services</button></a>
+
+                </div>
+            </div>
+            <div class="hero-right">
+                <img src="dev.jpeg">
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="section-head">
+                <span class="section-eyebrow">About</span>
+                <h2 class="section-title">About Me</h2>
+                <p class="section-desc">I build modern,fast and delightful web experiences with a focus on performance
+                    and
+                    design.
+                </p>
+            </div>
+            <div class="section about-grid">
+                <div class="portrait reveal">
+                    <img src="dev.jpeg" alt="Aditya portrait">
+                </div>
+
+                <div class="about-content reveal">
+                    <h3 class="about-heading">Crafting products people love</h3>
+                    <p class="about-text">
+                        I'm Aditya - a front-end focused developer who loves gradients,micro-interactions and clean,
+                        scalable code.
+                        I care about pixels <b>and</b> performance.
+                    </p>
+
+                    <div class="skill-badges">
+                        <span class="badge">HTML</span>
+                        <span class="badge">CSS</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">React</span>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+
+                            <div class="label1">Fresher</div>
+                        </div>
+                        <div class="stat">
+                            <div class="value">6</div>
+                            <div class="label">Projects</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="section-head">
+                <span class="section-eyebrow">Services</span>
+                <h2 class="section-title section-title-on-dark">What I Offer</h2>
+                <p class="section-desc section-desc-on-dark">Helping businesses and individuals with high-quality web
+                    solutions.
+                </p>
+            </div>
+
+            <div class="section service-grid">
+                <div class="service-card reveal">
+                    <div class="icon"><span>💻</span></div>
+                    <h3>Web Development</h3>
+                    <p>Clean, modern websites built with the latest web technologies.</p>
+                    <div class="tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="#" class="cta">Learn More →</a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon"><span>🎨</span></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing intuitive interfaces that are delightful to use.</p>
+                    <div class="tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Prototyping</span>
+                    </div>
+                    <a href="#" class="cta">Learn More →</a>
+                </div>
+                <div class="service-card reveal">
+                    <div class="icon"><span>⚡</span></div>
+                    <h3>Performance</h3>
+                    <p>Optimizing sites for blazing speed and smooth experiences.</p>
+                    <div class="tags">
+                        <span class="tag">SEO</span>
+                        <span class="tag">Lighthouse</span>
+                    </div>
+                    <a href="#" class="cta">Learn More →</a>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+
+            <!-- Tic Tac Toe Project -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="tictactoe.png" alt="Tic Tac Toe Game">
+                </div>
+                <div class="project-info">
+                    <div class="text">Tic Tac Toe Game</div>
+                    <p>This classic Tic Tac Toe game is built using HTML, CSS, and JavaScript. It allows two players to
+                        play against each other with an intuitive interface and responsive design.</p>
+                    <div class="buttons">
+                        <button class="btn"
+                            onclick="window.open('https://raisteranmol.github.io/tictactoe.github.io/', '_blank')">
+                            View TicTacToe Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- E-Commerce Store Project -->
+            <div class="project row-reverse">
+                <div class="project-image">
+                    <img src="amazon-clone.jpeg" alt="E-Commerce Store">
+                </div>
+                <div class="project-info">
+                    <div class="text">E-Commerce Store</div>
+                    <p>An Amazon-style online store prototype showcasing product listings, shopping cart functionality,
+                        and a responsive layout. Built to demonstrate front-end e-commerce design skills.</p>
+                    <div class="buttons">
+                        <button class="btn" onclick="window.open('https://raisteranmol.github.io/e-comm/', '_blank')">
+                            View E-Commerce Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Netflix Style Streaming Project -->
+            <div class="project">
+                <div class="project-image">
+                    <img src="netflix-clone.jpg" alt="Netflix Style Streaming">
+                </div>
+                <div class="project-info">
+                    <div class="text">Netflix Style Streaming</div>
+                    <p>A Netflix-inspired streaming platform interface that highlights movies and series with modern UI
+                        components, interactive navigation, and responsive design using HTML, CSS, and JavaScript.</p>
+                    <div class="buttons">
+                        <button class="btn"
+                            onclick="window.open('https://raisteranmol.github.io/netflix-clone/', '_blank')">
+                            View Netflix Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm" action="contact.php" method="POST" aria-label="Contact form">
+                <input type="text" name="name" placeholder="Your Name" required aria-label="Your Name">
+                <input type="email" name="email" placeholder="Your Email" required aria-label="Your Email">
+                <textarea name="message" rows="5" placeholder="Your Message" aria-label="Your Message"
+                    required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="copyright">Copyright &copy;2025 | All rights reserved</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
