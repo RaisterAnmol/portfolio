@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root {
+  --color-prime: linear-gradient(315deg, #FF6600, #0099FF);
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --text-48: 600 4.8rem/1.2 'Cormorant', serif;
+  --text-24: 400 2.4rem/1.4 'Optima', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-white);
+  font: var(--text-24);
+  color: var(--color-black);
+  padding: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+header nav ul li.active a {
+  color: #FF6600;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.hero h1 {
+  font: var(--text-48);
+  background: var(--color-prime);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  padding: 0.8rem 1.6rem;
+  background-color: #0099FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.project-card {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.info-box {
+  display: none;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #eaeaea;
+}
+
+.info-box.active {
+  display: block;
+}
+
+.skills ul {
+  margin-top: 1rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills li {
+  margin-bottom: 0.5rem;
+}

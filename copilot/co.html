@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anmol – Creative Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+  <header>
+    <nav class="inner_menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" data-aos="fade-up">
+      <h1>Hi, I'm Anmol</h1>
+      <p>A creative developer blending design, animation, and full-stack mastery.</p>
+      <button class="global_search">Search Projects</button>
+      <form id="globalsearch" action="/search" method="GET" style="display:none;">
+        <input type="text" name="q" placeholder="Search..." />
+      </form>
+    </section>
+
+    <section class="projects" data-aos="fade-right">
+      <h2>Featured Work</h2>
+      <div class="project-card" data-level-id="#project1">🎬 Movie Booking System</div>
+      <div id="project1" class="info-box">
+        <p>Built with Java Servlets, JSP, JDBC, and MySQL. Full-stack, real-world deployment ready.</p>
+      </div>
+    </section>
+
+    <section class="skills" data-aos="fade-left">
+      <h2>Skills</h2>
+      <ul>
+        <li>Next.js, Tailwind, Framer Motion</li>
+        <li>Java, JDBC, MySQL</li>
+        <li>UI/UX, 3D, GSAP</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Anmol. Built with passion and precision.</p>
+  </footer>
+
+  <div class="npf_chatbots" data-w="70996896db7946d9812cd61c2869b00a" style="display:none;"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
